@@ -1,0 +1,46 @@
+:global {
+  @import './normalize.scss';
+  @import './bootstrapGrid.scss';
+  @import './bootstrapButton.scss';
+  @import './bootstrapForm.scss';
+
+
+  * {
+    font-family: Verdana, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f4f4f4;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    padding-top: 50px;
+    min-height: calc(100vh - 245px);
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  @media (min-width: 768px) {
+
+  }
+
+  @media (min-width: 576px) {
+
+  }
+
+  @media (min-width: 992px) {
+
+  }
+
+  @media (max-width: 768px) {
+    main {
+      padding-top: 45px;
+      min-height: 60vh;
+    }
+  }
+}
